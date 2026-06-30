@@ -1,37 +1,37 @@
 # Madhav Ecommerce Sales Dashboard (Power BI)
 
-An interactive Power BI dashboard analyzing ecommerce sales performance, covering revenue, quantity, profit, and customer-level insights, with quarter-wise filtering for deeper drill-down.
+An interactive Power BI dashboard built to analyze a full year of ecommerce sales performance — tracking revenue, profit, quantity, and customer-level insights, with quarter-wise filtering for deeper drill-down.
 
 ## 📊 Overview
 
-This dashboard provides a consolidated view of ecommerce business performance — tracking sales by state, category, sub-category, payment mode, and top customers — with the ability to slice data by quarter.
+This dashboard consolidates ecommerce business performance across an entire year, covering state-wise sales, category and sub-category breakdowns, payment mode preferences, top customers, and month-by-month profit trends.
 
 ## 🖥️ Dashboard Features
 
 ### KPI Cards
-- **Sum of Amount:** 161K
-- **Sum of Quantity:** 2008
-- **Sum of Profit:** 26K
-- **Sum of AOV (Average Order Value):** 44K
+- **Sum of Amount:** 438K
+- **Sum of Quantity:** 5615
+- **Sum of Profit:** 37K
+- **Sum of AOV (Average Order Value):** 121K
 
 ### Filters
 - **Quarter Selector:** Qtr 1, Qtr 2, Qtr 3, Qtr 4
-- **Dropdown Filter:** Additional slicing option (e.g., region/category — set to "All" by default)
+- **Dropdown Filter:** Additional slicing option (set to "All" by default)
 
 ### Visuals
-- **Sum of Amount by State:** Bar chart comparing Maharashtra, Madhya Pradesh, Delhi, and Uttar Pradesh
-- **Sum of Quantity by Category:** Donut chart — Clothing (63%), Electronics (19%), Furniture (18%)
-- **Sum of Quantity by Payment Mode:** Donut chart — COD (44%), Credit Card (11%), EMI (12%), Debit Card (16%), UPI (18%)
-- **Sum of Amount by Customer Name:** Top customers — Harivansh, Shiva, Madhav, Sarita
-- **Profit by Month:** Bar chart for January, February, and March
-- **Sum of Profit by Sub-Category:** Printers, Phones, Accessories, Bookcases, Saree
+- **Sum of Amount by State:** Bar chart comparing Maharashtra, Madhya Pradesh, Uttar Pradesh, and Delhi
+- **Sum of Quantity by Category:** Donut chart — Clothing (63%), Electronics (21%), Furniture (17%)
+- **Sum of Quantity by Payment Mode:** Donut chart — COD (44%), UPI (21%), Debit Card (13%), Credit Card (12%), EMI (10%)
+- **Sum of Amount by Customer Name:** Top customers — Harivansh, Madhav, Madan Mohan, Shiva
+- **Profit by Month:** Full-year trend (January–December), highlighting profitable vs. loss-making months
+- **Sum of Profit by Sub-Category:** Printers, Bookcases, Saree, Accessories, Tables
 
 ## 🛠️ Tools & Techniques Used
 
 - **Power BI Desktop** – Report design and data modeling
 - **DAX** – KPI measures (Amount, Quantity, Profit, AOV)
 - **Slicers & Filters** – Quarter-based and category-based filtering
-- **Data Visualization** – Cards, bar charts, donut charts for category and payment mode distribution
+- **Data Visualization** – Cards, bar charts, donut charts, and trend charts for monthly profit
 
 ## 📁 Repository Contents
 
@@ -50,18 +50,21 @@ This dashboard provides a consolidated view of ecommerce business performance �
 
 ## 📌 Key Insights
 
-- Clothing dominates quantity sold, making up 63% of all category sales.
-- COD is by far the most preferred payment mode at 44%, followed by Credit Card and Debit Card.
-- Maharashtra leads in sales amount among the four states analyzed.
-- Harivansh is the top customer by purchase amount, well ahead of the next closest customer.
-- Printers and Phones are the highest profit-generating sub-categories.
+- Clothing remains the dominant category by quantity sold, at 63% of all sales.
+- COD continues to be the most preferred payment mode at 44%, followed by UPI at 21%.
+- Maharashtra leads all states in total sales amount.
+- Harivansh is the top customer by purchase amount across the year.
+- Several months (May, June, August, September, December) show negative profit, signaling potential cost or discounting issues worth investigating.
+- Printers and Bookcases are the top profit-generating sub-categories.
 
 ## 📷 Screenshots
 
- an `images/` folder and reference it here, for example:
+dashboard screenshot to an `images/` folder and reference it here, for example:
 
 ```markdown
-<img width="888" height="498" alt="Mahadev Dashboard" src="https://github.com/user-attachments/assets/4ab2893e-c61d-47e9-9e12-e838f907b161" />
+<img width="883" height="499" alt="Mahadev dashboard snapshot" src="https://github.com/user-attachments/assets/b0d70b95-1a07-4705-8235-502427fa5be7" />
+
+```
 
 ## 📄 License
 
